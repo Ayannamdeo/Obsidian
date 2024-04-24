@@ -14,3 +14,5 @@ few changes of his own to make   NodeJs runtime environment.
 now js can be executed outside the browser and due to using c++ underhood we can use
 js to talk to machine itself and do some stuff like file handling etc. which wasn't possible 
 in browsers.
+
+This file handling functionality can be accessed from node [[Modules]].
