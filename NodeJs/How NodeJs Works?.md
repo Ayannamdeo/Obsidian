@@ -35,6 +35,8 @@ it will check for all the CPU intensive task and offload them to some threads fr
 3. setImmediate Callbacks
 4. Close Callbacks - like server close, etc.
 5. check if there are any pending tasks, if yes then start the event loop once again, if not then exit.
+
+
 ![[How NodeJs Works? 2024-04-24 18.35.57]]
 
 
