@@ -11,7 +11,7 @@ First thing it does is create/spawns a process and this process works on single 
 call main thread.
 
 ### In this main thread following things happen is sequence -
-EA project is initialized
+1. A project is initialized
 2. top level code is executed, (code we directly write in script file like console.log(), etc. not inside any function or callback)
 3. require modules (like require('fs'))
 4. Event Callbacks register - events like socket event callbacks like server on close() etc. are registered but not run.
@@ -46,3 +46,7 @@ each step is referred as **phase**  of the event loop
 
 ### what about promises?
 so whenever the event loop phase transitions happen from one phase to another phase like it checks if some promise is completed, if so then event loop will execute it.
+
+
+
+
